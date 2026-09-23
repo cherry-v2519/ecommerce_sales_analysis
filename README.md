@@ -1,124 +1,107 @@
-\# E-commerce Sales Data Analysis
+# E-commerce Sales Data Analysis
 
+## 📌 About the Project
 
+This project analyzes real-world e-commerce transaction data to understand sales performance, revenue trends, customer behavior, products, and country-wise sales.
 
-\## 📌 About the Project
+The project focuses on cleaning raw data, performing exploratory data analysis (EDA), analyzing customer and order behavior, and creating visualizations to identify useful patterns and insights.
 
+## 🛠️ Technologies Used
 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-This project analyzes real-world e-commerce transaction data to understand sales performance, revenue trends, products, and country-wise sales.
+## 📊 Dataset
 
-
-
-The project focuses on cleaning raw data, performing exploratory data analysis (EDA), and creating visualizations to identify useful patterns.
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Jupyter Notebook
-
-
-
-\## 📊 Dataset
-
-
-
-\*\*UCI Online Retail Dataset\*\*
-
-
+**UCI Online Retail Dataset**
 
 The dataset contains transaction records from an online retail store, including:
 
+- Invoice number
+- Product/Stock code
+- Product description
+- Quantity
+- Invoice date
+- Unit price
+- Customer ID
+- Country
 
+## 🔍 Analysis Performed
 
-\- Invoice number
+### Day 1 – Data Exploration, Cleaning and Visualization
 
-\- Product/Stock code
+- Dataset exploration
+- Missing-value analysis
+- Duplicate detection and removal
+- Handling invalid transactions
+- Revenue calculation
+- Product-wise revenue analysis
+- Monthly revenue analysis
+- Country-wise revenue analysis
+- Transaction revenue distribution
+- Quantity vs Revenue analysis
 
-\- Product description
+### Day 2 – Customer and Order Analysis
 
-\- Quantity
+- Unique order analysis
+- Unique customer analysis
+- Average Order Value (AOV)
+- Top customers by revenue
+- Customers with the highest number of orders
+- Customer-level revenue analysis
+- Customer-level AOV analysis
 
-\- Invoice date
+### Day 3 – Seaborn and Statistical Visualization
 
-\- Unit price
+- Revenue distribution using Seaborn
+- Revenue boxplot and outlier analysis
+- Product revenue visualization
+- Correlation analysis
+- Quantity vs Revenue scatter plot
+- Statistical data visualization using Seaborn
 
-\- Customer ID
+### Day 4 – Final Analysis and Business Insights
 
-\- Country
+- Top products by quantity sold
+- Monthly revenue growth analysis
+- Highest-revenue month
+- Monthly order analysis
+- Top countries by quantity sold
+- Top customers by quantity purchased
+- Revenue per unit calculation
 
-
-
-\## 🔍 Analysis Performed
-
-
-
-\- Dataset exploration
-
-\- Missing-value analysis
-
-\- Duplicate detection and removal
-
-\- Handling invalid transactions
-
-\- Revenue calculation
-
-\- Product-wise revenue analysis
-
-\- Monthly revenue analysis
-
-\- Country-wise revenue analysis
-
-\- Transaction revenue distribution
-
-\- Quantity vs. revenue analysis
-
-
-
-\## 📈 Visualizations
-
-
+## 📈 Visualizations
 
 The project includes:
 
+- Top 10 Products by Revenue
+- Monthly Revenue Trend
+- Top 10 Countries by Revenue
+- Revenue Distribution
+- Revenue Boxplot
+- Top 10 Customers by Revenue
+- Top 10 Customers by Number of Orders
+- Top 10 Customers by Average Order Value
+- Top 10 Products by Quantity Sold
+- Monthly Revenue Growth
+- Top 10 Countries by Quantity Sold
+- Top 10 Customers by Quantity Purchased
+- Quantity vs Revenue Scatter Plot
+- Correlation Heatmap
 
+## 👩‍💻 Author
 
-\- Top 10 Products by Revenue
+Charanya Prasanna Punati
 
-\- Monthly Revenue Trend
-
-\- Top 10 Countries by Revenue
-
-\- Revenue Distribution
-
-\- Quantity vs Revenue Scatter Plot
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 ecommerce-sales-analysis/
-
 │
-
-├── ecommerce\_sales\_analysis.ipynb
-
+├── ecommerce_sales_analysis.ipynb
 ├── README.md
-
 └── .gitignore
-
