@@ -93,6 +93,33 @@ The project includes:
 - Quantity vs Revenue Scatter Plot
 - Correlation Heatmap
 
+## Day 5–6 – Insurance Cost Prediction
+
+Worked with an insurance dataset and prepared the data for Machine Learning.
+
+### Day 5 – Data Preparation
+- Exploratory Data Analysis
+- Data cleaning
+- Categorical feature encoding
+- Feature engineering
+- Feature scaling
+- Data preprocessing
+
+### Day 6 – Machine Learning
+- Train-test split
+- Linear Regression
+- Insurance charge prediction
+- Model evaluation using:
+  - MAE
+  - MSE
+  - RMSE
+  - R² Score
+- Actual vs Predicted visualization
+- Saved trained Linear Regression model
+
+### Technologies
+Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | Jupyter Notebook
+
 ## 👩‍💻 Author
 
 Charanya Prasanna Punati
@@ -100,8 +127,25 @@ Charanya Prasanna Punati
 ## 📂 Project Structure
 
 ```text
-ecommerce-sales-analysis/
+## Project Structure
+
+```text
+matplot/
 │
 ├── ecommerce_sales_analysis.ipynb
+├── insurance_data_analysis.ipynb
+├── Insurance_Linear_Regression.pkl
 ├── README.md
-└── .gitignore
+├── .gitignore
+│
+├── online+retail/
+│   └── Online Retail.xlsx
+│
+└── online+retail.zip
+
+
+### Dataset
+
+The project uses an `insurance.csv` dataset for insurance cost prediction.
+
+> Note: The dataset file is excluded from the repository using `.gitignore`.
