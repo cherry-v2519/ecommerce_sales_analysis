@@ -277,6 +277,17 @@ The application allows users to enter:
 
 The application then applies the required preprocessing and generates an estimated insurance charge.
 
+### Day 17 – Prediction Error Analysis
+
+- Generated predictions using the tuned Random Forest model
+- Calculated prediction errors
+- Computed MAE and RMSE
+- Compared prediction accuracy
+- Visualized error distribution
+- Analyzed largest and smallest prediction errors
+- Compared actual vs predicted values
+- Calculated the percentage of predictions within ₹5,000 error
+
 ## 📂 Project Structure
 
 ```text
